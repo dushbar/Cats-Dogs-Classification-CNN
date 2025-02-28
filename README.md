@@ -7,7 +7,7 @@ We observe overfitting so we use early stopping.
 
 Then we use ReLU activation and we observe better results with less overfitting.
 
-We observed overfitting so we use Data Augmentation which addressed the problem of overfitting.
+We observed overfitting so we used Data Augmentation which addressed the problem of overfitting.
 
 The dataset used is available here: https://www.kaggle.com/datasets/salader/dogs-vs-cats
 
