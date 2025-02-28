@@ -8,3 +8,5 @@ We observe overfitting so we use early stopping.
 Then we use ReLU activation and we observe better results with less overfitting.
 
 The dataset used is available here: https://www.kaggle.com/datasets/salader/dogs-vs-cats
+
+Overfitting was observed. So data augmentation needs to be done to address this.
