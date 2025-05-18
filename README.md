@@ -1,8 +1,8 @@
-# Cats vs Dogs Classifier 🐱🐶
+# Cats vs Dogs Classifier
 
 A Convolutional Neural Network (CNN) built with TensorFlow/Keras to classify images as either cats or dogs. This project demonstrates the full workflow: data loading, preprocessing, model building, training, and evaluation in a Google Colab notebook.
 
-The dataset used is available here:[Dataset](https://www.kaggle.com/datasets/chetankv/dogs-cats-images)
+The dataset used is available here: [Dataset](https://www.kaggle.com/datasets/chetankv/dogs-cats-images)
 
 ---
 
