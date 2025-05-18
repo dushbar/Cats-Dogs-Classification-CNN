@@ -15,19 +15,6 @@ The dataset used is available here: [Dataset](https://www.kaggle.com/datasets/ch
 
 ---
 
-## Project Structure
-
-.
-├── CatsDogs_classifier_colab.ipynb # Main Colab notebook
-├── README.md # Project documentation
-└── dataset/
-├── train/
-│ ├── cats/
-│ └── dogs/
-└── test/
-├── cats/
-└── dogs/
-
 ## Model Architecture
 
 - **3 Convolutional layers** (`tanh` or `ReLU` activation, 5x5 kernels, each followed by 2x2 MaxPooling)
@@ -35,7 +22,7 @@ The dataset used is available here: [Dataset](https://www.kaggle.com/datasets/ch
 - **Output layer:** 1 neuron (sigmoid activation)
 - **Optimizer:** Adam (learning rate 0.0001)
 - **Loss:** Binary Crossentropy
-
+---
   ## Training Results
  1. First `tanh` activation function was used without data augmentation which displayed overfitting.
  2. Early stopping was used but this did not address overfitting
